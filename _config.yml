@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "zh-CN"
+locale                   : "Guangzhou, China"
 title                    : "Zhihua Zhong"
 title_separator          : "-"
 name                     : &name "Zhihua Zhong"
@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Zhihua Zhong"
+  name             : "Your Sidebar Name"
   avatar           : "profile.png"
   bio              : "Your biography for the left-hand sidebar"
-  location         : "Guangzhou, China"
+  location         : "Location"
   employer         :
-  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : #"http://yourfullgooglescholarurl.com"
-  email            :  "zhi564133873k@126.com"
+  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  googlescholar    : "http://yourfullgooglescholarurl.com"
+  email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,20 +96,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/Isaac-Paradox"
+  github           : "academicpages"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "https://orcid.org/0009-0002-9979-4770"
+  orcid            : "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : 
+  twitter          : "replacethistwitterhandle"
   vine             :
   weibo            :
   xing             :
