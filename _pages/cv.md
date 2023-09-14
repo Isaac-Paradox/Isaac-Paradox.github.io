@@ -11,25 +11,25 @@ redirect_from:
 
 Education
 ======
-* B.S. in Network Engineering, Jinan University, 2017
-* M.S. in Computer Technology, Zhejiang University, 2023
+* B.S. in Network Engineering, [Jinan University](https://english.jnu.edu.cn/), 2017
+* M.S. in Computer Technology, [Zhejiang University](https://www.zju.edu.cn/english/), 2023
 <!-- * Ph.D in Version Control Theory, GitHub University, 2018 (expected) -->
 
 Work experience
 ======
 * Summer 2016: Game Engine Programmer Internship
-  * 37 Interactive Entertainment
+  * [37 Interactive Entertainment](https://www.37entertainment.net/)
   <!-- * Duties included: Tagging issues -->
   <!-- * Supervisor: Professor Git -->
 
 * Summer 2017: Game Engine Programmer
-  * 37 Interactive Entertainment
+  * [37 Interactive Entertainment](https://www.37entertainment.net/)
   * Duties included: Develop and maintain 4 modules independently.
   
 * Summer 2023: Research Assistant
-  * Hong Kong University of Science and Technology (Guangzhou)
+  * [Hong Kong University of Science and Technology (Guangzhou)](https://www.hkust-gz.edu.cn/)
   <!-- * Duties included: Merging pull requests -->
-  * Supervisor: Professor Varvara Guljajeva
+  * Supervisor: [Professor Varvara Guljajeva](https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=357)
   
 <!-- Skills
 ======
