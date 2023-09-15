@@ -12,4 +12,5 @@ I am a video game artisan who dream about making my own video games. In the past
 
 ---
 ## Research Interests
-TBA
+
+I'm instersting in any research that can help artist focus on creativity or expand possibility in art creation. So my research interest including but not limited to: 1. AICG method that can create contents and alleviate the labor of hand-crafting; 2. real-time acceleration algorithm, such as superresolution for real-time rendering, that can enlarge the capacity the contents in virtual scenes or give more alternative trade-off strategies.
