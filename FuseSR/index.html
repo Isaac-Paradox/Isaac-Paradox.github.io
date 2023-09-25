@@ -6,7 +6,7 @@
         content="Super Resolution for Real-time Rendering through Efficient Multi-resolution Fusion">
   <meta name="keywords" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>FuseSR: Super Resolution for Real-time Rendering through Efficient Multi-resolution Fusion - TBA</title>
+  <title>FuseSR: Super Resolution for Real-time Rendering through Efficient Multi-resolution Fusion</title>
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
@@ -191,9 +191,6 @@
   <div class="hero-body">
     <div class="columns is-centered">
       <div class="column has-text-centered">
-<h1 class="title is-1 publication-title" style="font-size:36px;">
-  TBA
-</h1>
 </div>
 </div>
 </div>
@@ -226,18 +223,17 @@
     </div>
   </div>
 </section> -->
-<!-- <section class="section"> -->
+<section class="section">
+  <div class="container is-max-desktop">
   <!-- Abstract. -->
-  <!-- <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
-          In this work, we present I<sup>2</sup>-SDF, a new method for intrinsic indoor scene reconstruction and editing using differentiable Monte Carlo raytracing on neural signed distance fields (SDFs). Our holistic neural SDF-based framework jointly recovers the underlying shapes, incident radiance and materials from multi-view images. We introduce a novel bubble loss for fine-grained small objects and error-guided adaptive sampling scheme to largely improve the reconstruction quality on large-scale indoor scenes. Further, we propose to decompose the neural radiance field into spatially-varying material of the scene as a neural field through surface-based, differentiable Monte Carlo raytracing and emitter semantic segmentations, which enables physically based and photorealistic scene relighting and editing applications. Through a number of qualitative and quantitative experiments, we demonstrate the superior quality of our method on indoor scene reconstruction, novel view synthesis, and scene editing compared to state-of-the-art baselines.
-          </p>
+          The workload of real-time rendering is steeply increasing as the demand for high resolution, high refresh rates, and high realism rises, overwhelming most graphics cards. To mitigate this problem, one of the most popular solutions is to render images at a low resolution to reduce rendering overhead, and then manage to accurately upsample the low-resolution rendered image to the target resolution, a.k.a. super-resolution techniques. Most existing methods focus on exploiting information from low-resolution inputs, such as historical frames. The absence of high frequency details in those LR inputs makes them hard to recover fine details in their high-resolution predictions. With LR images and HR G-buffers as input, the network requires to align and fuse features at multi resolution levels. We introduce an efficient and effective H-Net architecture to solve this problem and significantly reduce rendering overhead without noticeable quality deterioration. Experiments show that our method is able to produce temporally consistent reconstructions in 4 &times; 4 and even challenging 8 &times; 8 upsampling cases at 4K resolution with real-time performance, with substantially improved quality and significant performance boost compared to existing works.
         </div>
       </div>
-    </div> -->
+    </div>
     <!--/ Abstract. -->
 
     <!-- Paper video. -->
@@ -251,8 +247,8 @@
       </div>
     </div> -->
     <!--/ Paper video. -->
-  <!-- </div>
-</section> -->
+  </div>
+</section>
 
 <!-- <section class="section" id="dataset"> -->
   <!-- Dataset. -->
@@ -280,17 +276,55 @@
   <!-- </div>
 </section> -->
 
-<!-- <section class="section" id="geo"> -->
+<div class="container is-max-desktop">
+  <div class="hero-body">
+    <div class="columns is-centered has-text-centered">
+      <div class="column">
+        <div class="content">
+          <div class="b-dics" >
+            <img src="static/images/kite_8x_20/20_MNSS.png" alt="MNSS" />
+            <img src="static/images/kite_8x_20/20_SSSR.png" alt="Ours" />
+            <img src="static/images/kite_8x_20/20_GT.png" alt="GT" />
+            <img src="static/images/kite_8x_20/20_NSRR.png" alt="NSRR" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container is-max-desktop">
+  <div class="hero-body">
+    <div class="columns is-centered has-text-centered">
+      <div class="column">
+        <div class="content">
+          <div class="b-dics" >
+            <img src="static/images/showdown_1635/1635_MNSS.png" alt="MNSS" />
+            <!-- <img src="static/images/showdown_1635/1635_XESS.png" alt="XESS" /> -->
+            <img src="static/images/showdown_1635/1635_SSSR.png" alt="Ours" />
+            <img src="static/images/showdown_1635/1635_GT.png" alt="GT" />
+            <!-- <img src="static/images/showdown_1635/1635_Input.png" alt="Input" /> -->
+            <img src="static/images/showdown_1635/1635_NSRR.png" alt="NSRR" />
+            <!-- <img src="static/images/showdown_1635/1635_FSR.png" alt="FSR" /> -->
+            <!-- <img src="static/images/showdown_1635/1635_LIIF.png" alt="LIIF" /> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- <section class="section" id="geo">
+  <div class="container is-max-desktop has-text-centered"> -->
   <!-- Geometry. -->
-  <!-- <div class="container is-max-desktop has-text-centered">
-    <h2 class="title">Geometry Reconstruction</h2>
+    <!-- <h2 class="title">4x SR Result</h2>
     <div class="container">
       <div id="geo-carousel" class="carousel results-carousel">
         <div class="item item-0">
           <div class="b-dics">
-            <img src="static/images/geometry/0000_mono.png" alt="MonoSDF" />
-            <img src="static/images/geometry/0000.png" alt="Input" />
-            <img src="static/images/geometry/0000_ours.png" alt="Ours" />
+            <img src="static/images/matrix_65/65_FSR.png" alt="FSR" />
+            <img src="static/images/matrix_65/0000.png" alt="Input" />
+            <img src="static/images/matrix_65/0000_ours.png" alt="Ours" />
           </div>
         </div>
         <div class="item item-1">
